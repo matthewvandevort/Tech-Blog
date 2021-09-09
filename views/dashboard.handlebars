@@ -2,7 +2,7 @@
 {{#if posts.lentgh}}
 <section>
     <h2>Your Posts</h2>
-        {{#each posts |post|}}
+        {{#each posts as |post|}}
             {{> dashboard-postinfo post}}
         {{/each}}
 
